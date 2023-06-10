@@ -12,7 +12,7 @@ class ProductList extends StatefulWidget {
 }
 
 class _ProductListState extends State<ProductList> {
-  var data;
+  var data = {};
   bool isloading = false;
 
   @override
